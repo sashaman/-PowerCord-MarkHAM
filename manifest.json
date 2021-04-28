@@ -1,0 +1,8 @@
+{
+	"name": "markham",
+	"version": "2.1.0",
+	"description": "owoify your message",
+	"author": "EchelonDev/Fezalion",
+	"license": "MIT",
+	"dependencies": ["pc-commands"]
+}

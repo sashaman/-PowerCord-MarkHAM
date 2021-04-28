@@ -1,0 +1,13 @@
+{
+	"cmds": [
+		{ "command": "blackout", "description": "Blackout your text with spoilers" },
+		{ "command": "emojify", "description": "🇪 🇲 🇴 🇯 🇮 🇫 🇾   🇾 🇴 🇺 🇷   🇹 🇪 🇽 🇹" },
+		{ "command": "fancy", "description": "𝑀𝒶𝓀𝑒 𝓎𝑜𝓊𝓇 𝓉𝑒𝓍𝓉 𝐹𝒶𝓃𝒸𝓎" },
+		{ "command": "mock", "description": "mOck SoMEonE" },
+		{ "command": "pirate", "description": "Ahoy there, talk in Pirate Slang" },
+		{ "command": "reverse", "description": "sdrawkcab klaT" },
+		{ "command": "tiny", "description": "ᴹᵃᵏᵉ ʸᵒᵘʳ ᵗᵉˣᵗ ˢᵐᵒˡ" },
+		{ "command": "upsidedown", "description": "ꓕǝxʇ ƃo Ոdsᴉǝoʍu" },
+		{ "command": "vapor", "description": "Ｍａｋｅ ｙｏｕｒ ｔｅｘｔ ｆｒｏｍ ｔｈｅ ｆｕｔｕｒｅ" }
+	]
+}
