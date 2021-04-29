@@ -20,9 +20,6 @@ module.exports = class MarkHAM extends Plugin {
 					result: `Please provide a valid option`
 				};
 			switch (option) {
-				case "blackout":
-					output = DTXT.blackout(msg);
-					break;
 				case "emojify":
 					output = DTXT.emojify(msg);
 					break;
