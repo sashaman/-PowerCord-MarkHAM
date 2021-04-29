@@ -57,7 +57,7 @@ module.exports = class MarkHAM extends Plugin {
 		inject("mhSend", messageEvents, "sendMessage", function (args) {}, true);
 		powercord.api.commands.registerCommand({
 			command: "mh",
-			description: "owoify your message",
+			description: "Markup your message",
 			usage: "{c} [ text ]",
 			executor: (args) => DTexts(args),
 			autocomplete: (args) => {
