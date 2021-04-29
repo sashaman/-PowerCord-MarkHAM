@@ -5,18 +5,6 @@ const DTXT = require("discord-texts");
 
 module.exports = class MarkHAM extends Plugin {
 	async startPlugin() {
-		powercord.api.settings.registerSettings(this.entityID, {
-			category: this.entityID,
-			label: "MarkHAM",
-			render: (props) =>
-				React.createElement(Settings, {
-					main: this,
-					...props
-				})
-		});
-
-		let parentThis = this;
-
 		function DTexts(args) {
 			let option = args[0];
 			let msg = args.slice(1).join(" ");
@@ -63,13 +51,10 @@ module.exports = class MarkHAM extends Plugin {
 					return { send: false, result: `${args[0]} is not a valid option` };
 				}
 			}
-
 			return { send: true, result: output };
 		}
-
 		const messageEvents = await getModule(["sendMessage"]);
 		inject("mhSend", messageEvents, "sendMessage", function (args) {}, true);
-
 		powercord.api.commands.registerCommand({
 			command: "mh",
 			description: "owoify your message",
@@ -85,7 +70,6 @@ module.exports = class MarkHAM extends Plugin {
 			}
 		});
 	}
-
 	pluginWillUnload() {
 		uninject("mhSend");
 		powercord.api.commands.unregisterCommand("mh");
