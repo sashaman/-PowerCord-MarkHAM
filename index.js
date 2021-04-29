@@ -1,5 +1,5 @@
 const { Plugin } = require("powercord/entities");
-const { getModule, React } = require("powercord/webpack");
+const { getModule } = require("powercord/webpack");
 const { inject, uninject } = require("powercord/injector");
 const DTXT = require("discord-texts");
 
